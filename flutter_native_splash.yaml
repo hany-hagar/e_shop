@@ -1,0 +1,16 @@
+
+  flutter_native_splash:
+    color: "#ffffff" # Define the general background color
+    background_image: "assets/images/background.png"
+    image: assets/images/e_shop_logo.png # Define the general splash image
+
+    android_12:
+      # Specific configuration for Android 12
+      color: "#ffffff" # Use a distinct color for Android 12 if needed
+      background_image: "assets/images/background.png"
+      image: assets/images/e_shop_logo.png # Use the same image or define a different one for Android 12
+
+    # Platform settings
+    android: true
+    ios: true
+    web: true
